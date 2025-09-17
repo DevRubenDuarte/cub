@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 # Load environment variables from .env file
 load_dotenv()
 
-# Set up Telegram bot token
+# Set up Telegram bot token - EXPECTS .env file with TELEGRAM_BOT_TOKEN="xxxxx"
 token = os.getenv("TELEGRAM_BOT_TOKEN")
 
 def main():

@@ -14,3 +14,5 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
 
+async def test(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await update.message.reply_text("This is a test command.")
